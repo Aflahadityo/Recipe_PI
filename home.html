@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/home-alt.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/search.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/user.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/menu.css"
+      rel="stylesheet"
+    />
+    <title>International Food Website</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/home.html"><i class="gg-home-alt"></i>FOODIES</a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="#">Trend</a></li>
+                <li><a href="/recipe.html">Recipe</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+            </ul>
+            <div class="icon-container">
+                <input
+                    type="text"
+                    placeholder="Search"
+                    id="search-input"
+                    class="search-bar"
+                />
+                <i class="gg-search" id="search-icon"></i>
+                <i class="gg-user"></i>
+                <i class="gg-menu" id="hamburger-icon"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="search-results" id="search-results">
+        <ul id="search-results-list">
+            <!-- Search results will be displayed here -->
+        </ul>
+    </section>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>One World, One Cuisine</h1>
+            <h2>Taste <span>The World</span> In Every Bite!</h2>
+            <div class="hero-buttons">
+                <a href="#" class="btn upload-recipe">Upload Your Recipe</a>
+                <a href="#" class="btn try-now">Try It Now</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="/img/hero.png" alt="Hero Image" />
+        </div>
+    </section>
+    <section class="trending">
+        <h2 class="trending-titles">Categories</h2>
+        <div class="trending-container">
+            <div class="trending-recipes" id="trending-recipes">
+                <a href="/Breakfast/breakfast.html" class="recipe-card">
+                    <img src="/img/egg.png" alt="Breakfast" />
+                    <h3>Breakfast</h3>
+                </a>
+                <a href="/lunch_section/lunch.html" class="recipe-card">
+                    <img src="/img/pasta.png" alt="Lunch" />
+                    <h3>Lunch</h3>
+                </a>
+                <a href="#" class="recipe-card">
+                    <img src="/img/sushi.png" alt="Dinner" />
+                    <h3>Dinner</h3>
+                </a>
+                <a href="#" class="recipe-card">
+                    <img src="/img/broccoli.png" alt="Vegan" />
+                    <h3>Vegan</h3>
+                </a>
+                <a href="/meat_section/meat.html" class="recipe-card">
+                    <img src="/img/meat.png" alt="Meat" />
+                    <h3>Meat</h3>
+                </a>
+                <a href="#" class="recipe-card">
+                    <img src="/img/fast-food.png" alt="Fast-Food" />
+                    <h3>Fast-Food</h3>
+                </a>
+                <a href="#" class="recipe-card">
+                    <img src="/img/snack.png" alt="Snack" />
+                    <h3>Snack</h3>
+                </a>
+                <a href="#" class="recipe-card">
+                    <img src="/img/cake.png" alt="Dessert" />
+                    <h3>Dessert</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+   
+    <section class="new-recipes">
+        <h2 class="new-recipes-titles">New Recipes</h2>
+        <div class="new-recipes-container">
+            <a href="/meat_section/rendang_recipe.html" class="recipe-card">
+                <img src="/img/609a08809259f.jpg" alt="New Recipe 1" />
+                <h3>Rendang</h3>
+                <p>A traditional Indonesian beef stew with rich spices.</p>
+            </a>
+            <a href="/lunch_section/Spaghetti_recipe.html" class="recipe-card">
+                <img src="/img/spaghetti-carbonara-foto-resep-utama.webp" alt="New Recipe 2" />
+                <h3>Spaghetti carbonara </h3>
+                <p>A classic Italian dish with spaghetti, egg, cheese, and bacon.</p>
+            </a>
+            <a href="/new-recipes/recipe3.html" class="recipe-card">
+                <img src="/img/new-recipe3.png" alt="New Recipe 3" />
+                <h3>New Recipe 3</h3>
+            </a>
+            <a href="/new-recipes/recipe3.html" class="recipe-card">
+                <img src="/img/new-recipe3.png" alt="New Recipe 3" />
+                <h3>New Recipe 3</h3>
+            </a>
+            <a href="/new-recipes/recipe3.html" class="recipe-card">
+                <img src="/img/new-recipe3.png" alt="New Recipe 3" />
+                <h3>New Recipe 3</h3>
+            </a>
+        </div>
+    </section>
+    <script src="/script.js"></script>
+</body>
+</html>

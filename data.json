@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Rendang",
+        "description": "A traditional Indonesian beef stew with rich spices.",
+        "image": "/img/609a08809259f.jpg",
+        "link": "/meat_section/rendang_recipe.html"
+    },
+    {
+        "name": "Spaghetti Carbonara",
+        "description": "A classic Italian pasta dish with a creamy sauce.",
+        "image": "/img/spaghetti_carbonara.jpg",
+        "link": "/lunch_section/Spaghetti_recipe.html"
+    },
+    {
+        "name": "New Recipe 3",
+        "description": "Description for new recipe 3.",
+        "image": "/img/new-recipe3.png",
+        "link": "/new-recipes/recipe3.html"
+    }
+]
